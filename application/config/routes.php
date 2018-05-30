@@ -58,6 +58,7 @@ $route['delete-profile-picture'] = 'Login_controller/delete_profilepicture';
 $route['nodes'] = 'Login_controller/shownodes';
 $route['nodes-data'] = 'Login_controller/nindex';
 $route['categories'] = 'Login_controller/categories';
+$route['checkbox'] = 'Login_controller/checkbox';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

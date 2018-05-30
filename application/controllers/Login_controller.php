@@ -221,4 +221,11 @@ class Login_controller extends CI_Controller {
 	public function shownodes(){
 		$this->load->view('nodes');
 	}
+
+	public function checkbox(){
+		if($this->input->post('submit')){
+			echo 'here'	;
+		}
+		$this->load->view('checkboxdemo');	
+	}
 }
